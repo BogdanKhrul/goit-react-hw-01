@@ -23,6 +23,9 @@
     padding: 12px;
     border-radius: 8px;
     text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
 }
 
 .friendsList { 

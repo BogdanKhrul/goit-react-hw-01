@@ -1,9 +1,10 @@
 import 'modern-normalize/modern-normalize.css';
-// import s from './App.modul.css';
+import TransactionHistory from '../TransactionHistory/TransactionHistory';
+import FriendList from '../FriendList/FriendList';
+import transactions from '../transactions.json';
 import Profile from '../Profile/Profile';
 import userData from '../userData.json';
 import friends from '../friends.json';
-import FriendList from '../FriendList/FriendList';
 
 const App = () => {
     return (
@@ -16,6 +17,7 @@ const App = () => {
                 stats={userData.stats}
             />
             <FriendList friends={friends} />
+            <TransactionHistory items={transactions} />
         </>
     );
 };
